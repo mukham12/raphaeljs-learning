@@ -7,3 +7,4 @@ let y = 100 * Math.sin(Raphael.rad(60))
 
 // Drawing arcs using RaphaelJS
 // Parameters for drawing an arc: A or a (rx, ry, x-rotation, large-arc-flag, sweep-flag, x, y)
+let arc = paper.path(['M', 100, 150, 'a', 130, 100, 0, 1, 1, 100, 300])
