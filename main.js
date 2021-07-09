@@ -9,3 +9,5 @@ let arc = paper.path(['M', 100, 150, 'a', 130, 100, 0, 1, 1, 100, 300])
     Element.getTotalLength()
     Element.getPointAtLength(length)
 */
+
+// Learning animations using Raphäel
