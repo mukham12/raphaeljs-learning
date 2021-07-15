@@ -1,11 +1,5 @@
 let paper = new Raphael('canvas-container', window.innerWidth, window.innerHeight)
 
-/* 
-    Utility methods for working with paths
-    Element.getTotalLength()
-    Element.getPointAtLength(length)
-*/
-
 // Learning animations using Raphäel
 let circle = paper.circle(100, 100, 50).attr({ fill: 'green' })
 
