@@ -3,4 +3,6 @@ let paper = new Raphael('canvas-container', window.innerWidth, window.innerHeigh
 // Pausing and resuming animation
 var circle = paper.circle(0, 0, 13).attr({fill: '#09c', cursor: 'pointer'})
 
-const runloop = () => { }
+const runloop = () => {
+    circle.animate({pathFactor: 1}, 4000, () => { }
+}
