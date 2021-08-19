@@ -11,3 +11,5 @@ const runloop = () => {
     circle.unclick().click(() => this.pause)
     circle.undbclick().dbclick(() => this.resume)
 }
+
+runloop()
