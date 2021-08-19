@@ -8,4 +8,5 @@ const runloop = () => {
         this.attr({pathFactor: 0})
         setTimeout(runLoop)
     })
+    circle.unclick().click(() => this.pause)
 }
