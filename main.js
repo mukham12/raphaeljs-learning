@@ -9,4 +9,5 @@ const runloop = () => {
         setTimeout(runLoop)
     })
     circle.unclick().click(() => this.pause)
+    circle.undbclick().dbclick(() => this.resume)
 }
