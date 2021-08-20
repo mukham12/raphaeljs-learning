@@ -12,4 +12,3 @@ const runloop = () => {
     circle.undbclick().dbclick(() => this.resume)
 }
 
-runloop()
