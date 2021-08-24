@@ -4,8 +4,6 @@ let paper = new Raphael('canvas-container', window.innerWidth, window.innerHeigh
 var circle = paper.circle(0, 0, 13).attr({fill: '#09c', cursor: 'pointer'})
 
 const runloop = () => {
-    circle.animate({pathFactor: 1}, 4000, () => {
-        this.attr({pathFactor: 0})
-    })
+    circle.animate({pathFactor: 1}, 4000, () => { })
 }
 
