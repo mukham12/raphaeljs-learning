@@ -8,3 +8,4 @@ let paper = new Raphael('canvas-container', window.innerWidth, window.innerHeigh
 */
 let london = rsr.path(...)
 let northwest = rsr.path(...)
+let data = []
