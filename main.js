@@ -8,4 +8,14 @@ let paper = new Raphael('canvas-container', window.innerWidth, window.innerHeigh
 */
 let london = rsr.path(...)
 let northwest = rsr.path(...)
-let data = []
+let data = [
+   {
+      path: northwest,
+      population: 7052000
+   },
+   {
+      path: northeast,
+      population: 2597000
+   }
+   // and so on...
+]
