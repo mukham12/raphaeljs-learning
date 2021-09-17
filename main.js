@@ -19,4 +19,6 @@ let data = [
    }
    // and so on...
 ]
-rsr.customAttributes.shading = (population, min, max, total) => {}
+rsr.customAttributes.shading = (population, min, max, total) => {
+     let brightness = 1 - ((population - min) / (max - min))
+}
