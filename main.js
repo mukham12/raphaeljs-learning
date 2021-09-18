@@ -21,4 +21,5 @@ let data = [
 ]
 rsr.customAttributes.shading = (population, min, max, total) => {
      let brightness = 1 - ((population - min) / (max - min))
+     return { fill: 'hsb(0, 0, ' + brightness + ')' }
 }
