@@ -25,3 +25,4 @@ rsr.customAttributes.shading = (population, min, max, total) => {
 }
 
 let totalPolulations = 53013000
+let minPopulation = 2597000
