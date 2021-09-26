@@ -14,7 +14,6 @@ let data = [
       path: northeast,
       population: 2597000
    }
-   // and so on...
 ]
 rsr.customAttributes.shading = (population, min, max, total) => {
      let brightness = 1 - ((population - min) / (max - min))
