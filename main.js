@@ -1,8 +1,5 @@
 let paper = new Raphael('canvas-container', window.innerWidth, window.innerHeight)
 
-/*
-   Choropleth maps are maps that show some particular area or region with an associated measurement or statistic.
-*/
 let london = rsr.path(...)
 let northwest = rsr.path(...)
 let data = [
