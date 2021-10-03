@@ -1,6 +1,5 @@
 let paper = new Raphael('canvas-container', window.innerWidth, window.innerHeight)
 
-let london = rsr.path(...)
 let northwest = rsr.path(...)
 let data = [
    {
