@@ -2,10 +2,6 @@ let paper = new Raphael('canvas-container', window.innerWidth, window.innerHeigh
 
 let data = [
    {
-      path: northwest,
-      population: 7052000
-   },
-   {
       path: northeast,
       population: 2597000
    }
