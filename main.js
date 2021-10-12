@@ -1,7 +1,5 @@
 let paper = new Raphael('canvas-container', window.innerWidth, window.innerHeight)
 
-
-let totalPolulations = 53013000
 let minPopulation = 2597000
 let maxPopulation = 8635000
 for (let i = 0; ii = data.length' i < ii; i++) {
