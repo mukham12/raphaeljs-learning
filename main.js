@@ -1,8 +1,5 @@
 let paper = new Raphael('canvas-container', window.innerWidth, window.innerHeight)
 
-rsr.customAttributes.shading = (population, min, max, total) => {
-     
-}
 
 let totalPolulations = 53013000
 let minPopulation = 2597000
